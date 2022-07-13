@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Header from './Components/Header'
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
-    <Header />
+    <div class="app-container">
+      <Header />
+      <Navbar />
+    </div>
   );
 }
 
